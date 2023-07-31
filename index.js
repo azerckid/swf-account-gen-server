@@ -5,7 +5,7 @@ const { Web3 } = require("web3");
 
 const generateBlockchainKeys = () => {
   const web3 = new Web3(
-    "https://sepolia.infura.io/v3/6183358fa70a469c8ac0f6644d09adf8"
+    "https://polygon-mumbai.g.alchemy.com/v2/hhywMIG5AA9QuF7miXI39bjdQUinXydH"
   );
   const newAccount = web3.eth.accounts.create();
   console.log(newAccount);
