@@ -41,3 +41,8 @@ alchemy.ws.on(
 ```
 node <your_filename>.js
 ```
+
+```
+//ACCOUNT 0xc36b5f4b00D2165821778bF1b682af7eF3fc69f0
+//NFTCONTRACT 0xBc55Bd38CCEcA8612700eE9e7D38E8379EA19b12
+```
