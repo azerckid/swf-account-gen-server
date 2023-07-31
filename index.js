@@ -18,6 +18,9 @@ const generateBlockchainKeys = () => {
 
 app.use(cors());
 // 블록체인 주소와 키를 반환하는 API 엔드포인트
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 app.get("/generateKeys", (req, res) => {
   try {
     const keys = generateBlockchainKeys();
