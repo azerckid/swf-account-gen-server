@@ -728,7 +728,8 @@ const abi = [
 ];
 
 const web3 = new Web3(
-  "https://polygon-mumbai.g.alchemy.com/v2/hhywMIG5AA9QuF7miXI39bjdQUinXydH"
+  // "https://polygon-mumbai.g.alchemy.com/v2/hhywMIG5AA9QuF7miXI39bjdQUinXydH"
+  "https://evm-t3.cronos.org"
 );
 
 const generateBlockchainKeys = () => {
@@ -821,7 +822,7 @@ app.get(
     try {
       // const { accountAddress, nftContractAddress } = req.params;
       const accountAddress = "0x2267BA87BA076e2459f39ACa718cE5f6d5D3a26c";
-      const nftContractAddress = "0xA50675799Ba9014390041890A9d7c35879349dFD";
+      const nftContractAddress = "0x95c3FBe092E47CFF945D29214107FA1219621D08";
       const metadata = await getNFTMetadata(accountAddress, nftContractAddress);
       res.json(metadata);
     } catch (error) {
