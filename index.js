@@ -820,8 +820,8 @@ app.get(
   async (req, res) => {
     try {
       // const { accountAddress, nftContractAddress } = req.params;
-      const accountAddress = "0x47d32224ec80cA4998437070223fA56FeCa2E401";
-      const nftContractAddress = "0x8867490a6F07770337955Df684D58F6AE466C525";
+      const accountAddress = "0x2267BA87BA076e2459f39ACa718cE5f6d5D3a26c";
+      const nftContractAddress = "0xA50675799Ba9014390041890A9d7c35879349dFD";
       const metadata = await getNFTMetadata(accountAddress, nftContractAddress);
       res.json(metadata);
     } catch (error) {
